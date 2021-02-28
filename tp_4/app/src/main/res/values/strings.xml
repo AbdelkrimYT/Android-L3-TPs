@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Application TD 4</string>
+    <string name="text_de_test">Text de test</string>
+    <string name="blue">Blue</string>
+    <string name="jaune">Jaune</string>
+    <string name="rouge">Rouge</string>
+    <string name="none">None</string>
+    <string name="imgblue">imgBlue</string>
+    <string name="imgred">imgRed</string>
+    <string name="button">Change color</string>
+</resources>

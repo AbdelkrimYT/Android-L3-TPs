@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application TD 3 Exercice 3 et 4 et 5</string>
+    <string name="number_of_clicks">Number of clicks: 0</string>
+    <string name="click_me">Click me</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="au_revoir">Au revoir</string>
+</resources>

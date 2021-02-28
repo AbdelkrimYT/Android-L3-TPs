@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TP 5 Exo 1</string>
+    <string name="sauvegarder">Sauvegarder</string>
+    <string name="annuler">Annuler</string>
+    <string name="nom">Nom</string>
+    <string name="pr_nom">Prénom</string>
+    <string name="name">Name:</string>
+    <string name="last_name">Last Name:</string>
+</resources>

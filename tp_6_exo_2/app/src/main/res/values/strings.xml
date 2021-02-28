@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP 6 exo 2</string>
+    <string name="nom">Nom</string>
+    <string name="save">Save</string>
+    <string name="email">Email</string>
+    <string name="num_ro_de_t_l_phone">Numéro de téléphone</string>
+    <string name="pr_nom">Prénom</string>
+</resources>

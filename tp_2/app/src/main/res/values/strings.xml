@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Application TD 2</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="valider">Valider</string>
+    <string name="textChange">Au revior et merci</string>
+</resources>

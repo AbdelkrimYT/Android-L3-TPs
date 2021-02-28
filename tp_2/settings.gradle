@@ -1,0 +1,2 @@
+rootProject.name='TD 2'
+include ':app'

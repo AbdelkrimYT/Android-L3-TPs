@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP 5 exo 2</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="user">Username:</string>
+    <string name="welcom">Welcom...</string>
+</resources>

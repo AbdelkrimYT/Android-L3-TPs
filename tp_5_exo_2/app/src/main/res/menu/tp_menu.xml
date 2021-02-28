@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/taill"
+        android:title="Taill"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/taill_10"
+                android:title="10sp" />
+            <item
+                android:id="@+id/taill_12"
+                android:title="12sp" />
+            <item
+                android:id="@+id/taill_14"
+                android:title="14sp" />
+            <item
+                android:id="@+id/taill_16"
+                android:title="16sp" />
+            <item
+                android:id="@+id/taill_18"
+                android:title="18sp" />
+            <item
+                android:id="@+id/taill_20"
+                android:title="20sp" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/couleu"
+        android:title="Couleu"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/couleu_blue"
+                android:title="Blue" />
+            <item
+                android:id="@+id/couleu_joune"
+                android:title="Joune" />
+            <item
+                android:id="@+id/couleu_rouge"
+                android:title="Rouge" />
+            <item
+                android:id="@+id/couleu_vert"
+                android:title="Vert" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/police"
+        android:title="Police"
+        app:showAsAction="never" >
+        <menu>
+            <item
+                android:id="@+id/family_roboto_thin"
+                android:title="Roboto Thin" />
+            <item
+                android:id="@+id/family_sans_serif_light"
+                android:title="Roboto Light" />
+            <item
+                android:id="@+id/family_roboto_regular"
+                android:title="Roboto Regular" />
+            <item
+                android:id="@+id/family_roboto_bold"
+                android:title="Roboto Bold" />
+            <item
+                android:id="@+id/family_sans_cutive_mono"
+                android:title="Cutive Mono" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/style"
+        android:title="Style"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/style_normal"
+                android:title="Normal" />
+            <item
+                android:id="@+id/style_bold"
+                android:title="Blod" />
+            <item
+                android:id="@+id/_style_italic"
+                android:title="Italic" />
+        </menu>
+
+    </item>
+</menu>

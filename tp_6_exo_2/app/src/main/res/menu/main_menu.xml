@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m_id"
+        android:title="Liste des contacts"
+        android:icon="@drawable/ic_contact_phone_black_24dp"
+        app:showAsAction="never" />
+
+</menu>

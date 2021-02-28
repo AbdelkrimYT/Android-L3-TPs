@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:autofillHints="@string/nom"
+        android:ems="16"
+        android:hint="@string/nom"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nom"
+        android:layout_centerInParent="true"
+        android:autofillHints="@string/pr_nom"
+        android:ems="16"
+        android:hint="@string/pr_nom"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prenom"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/cancel"
+        android:text="@string/sauvegarder" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prenom"
+        android:layout_alignEnd="@id/nom"
+        android:layout_centerInParent="true"
+        android:text="@string/annuler" />
+</RelativeLayout>

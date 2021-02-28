@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imageButtonBlue"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="false"
+        android:contentDescription="@string/imgblue"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/blue" />
+
+    <ImageButton
+        android:id="@+id/imageButtonRed"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/imgred"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/red" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/text_de_test"
+        android:textSize="30sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RadioButton
+            android:id="@+id/radioButtonBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/radioButtonJaune"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/jaune" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRouge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/rouge" />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <ToggleButton
+            android:id="@+id/togBtnBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/blue"
+            android:textOn="@string/none" />
+
+        <ToggleButton
+            android:id="@+id/togBtnJaune"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/jaune"
+            android:textOn="@string/none" />
+
+        <ToggleButton
+            android:id="@+id/togBtnRed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOff="@string/rouge"
+            android:textOn="@string/none" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/changeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/rbb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/blue" />
+
+        <RadioButton
+            android:id="@+id/rbj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jaune" />
+
+        <RadioButton
+            android:id="@+id/rbr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rouge" />
+    </RadioGroup>
+
+</RelativeLayout>
